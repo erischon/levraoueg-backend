@@ -1,11 +1,12 @@
 const express = require("express");
-
 require("dotenv").config();
+
+const propertyRoutes = require("./routes/propertyRoutes");
 
 // express app
 const app = express();
 
-// middleware
+// Middleware
 app.use(express.json());
 
 app.use((req, res, next) => {
@@ -13,7 +14,10 @@ app.use((req, res, next) => {
   next();
 });
 
-// listen for requests
+// Routes
+app.use("/api/property/", propertyRoutes);
+
+// Listen for requests
 app.listen(process.env.PORT, () => {
   console.log(`listening on port ${process.env.PORT}`);
 });
