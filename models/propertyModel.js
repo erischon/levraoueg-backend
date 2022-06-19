@@ -6,14 +6,34 @@ const propertySchema = new Schema(
   {
     title: {
       type: String,
-      required: true,
+      required: [true, "Please enter a title for this property"],
     },
     propertyType: {
       type: String,
-      required: true,
+      required: [true, "Please enter a type for this property"],
+      enum: {
+        values: ["Livre", "Film", "Série", "BD", "Musique", "Jeu Vidéo"],
+        message: "Please select correct type",
+      },
     },
-    notes: {
+    upc: {
       type: String,
+    },
+    images: [
+      {
+        public_id: {
+          type: String,
+          required: true,
+        },
+        url: {
+          type: String,
+          required: true,
+        },
+      },
+    ],
+    rate: {
+      type: Number,
+      default: 0,
     },
   },
   { timestamps: true }
