@@ -12,7 +12,7 @@ const propertySchema = new Schema(
       type: String,
       required: [true, "Please enter a type for this property"],
       enum: {
-        values: ["Livre", "Film", "Série", "BD", "Musique", "Jeu Vidéo"],
+        values: ["livre", "film", "série", "bd", "musique", "jeu vidéo"],
         message: "Please select correct type",
       },
     },
