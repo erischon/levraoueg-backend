@@ -19,18 +19,10 @@ const propertySchema = new Schema(
     upc: {
       type: String,
     },
-    images: [
-      {
-        public_id: {
-          type: String,
-          required: true,
-        },
-        url: {
-          type: String,
-          required: true,
-        },
-      },
-    ],
+    images: {
+      type: String,
+      required: true,
+    },
     rate: {
       type: Number,
       default: 0,

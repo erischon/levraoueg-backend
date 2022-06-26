@@ -3,48 +3,28 @@
       "title": "Le crime est notre affaire",
       "propertyType": "livre",
       "upc": "9782253038375",
-      "images": [
-        {
-          "public_id": "my-bookcase/property/le-crime-est-notre-affaire",
-          "url": "https://res.cloudinary.com/dxyabkggp/image/upload/v1655632352/my-bookcase/property/le-crime-est-notre-affaire.jpg"
-        }
-      ],
+      "images": "https://res.cloudinary.com/dxyabkggp/image/upload/v1655632352/my-bookcase/property/le-crime-est-notre-affaire.jpg",
       "rate": 0
     },
     {
         "title": "Miss Marple au club du mardi",
         "propertyType": "livre",
         "upc": "9782702445716",
-        "images": [
-          {
-            "public_id": "my-bookcase/property/miss-marple-au-club-du-mardi",
-            "url": "https://res.cloudinary.com/dxyabkggp/image/upload/v1655650010/my-bookcase/property/miss-marple-au-club-du-mardi.jpg"
-          }
-        ],
+        "images":"https://res.cloudinary.com/dxyabkggp/image/upload/v1655650010/my-bookcase/property/miss-marple-au-club-du-mardi.jpg",
         "rate": 0
       },
       {
         "title": "A couteaux tirés",
         "propertyType": "film",
         "upc": "3512392423970",
-        "images": [
-          {
-            "public_id": "my-bookcase/property/a-couteaux-tires",
-            "url": "https://res.cloudinary.com/dxyabkggp/image/upload/v1655650706/my-bookcase/property/a-couteaux-tires.jpg"
-          }
-        ],
+        "images":"https://res.cloudinary.com/dxyabkggp/image/upload/v1655650706/my-bookcase/property/a-couteaux-tires.jpg",
         "rate": 0
       },
       {
         "title": "Hounds Of Love",
         "propertyType": "musique",
         "upc": "724352523924",
-        "images": [
-          {
-            "public_id": "my-bookcase/property/hounds-of-love_apwxl4",
-            "url": "https://res.cloudinary.com/dxyabkggp/image/upload/v1655650888/my-bookcase/property/hounds-of-love_apwxl4.jpg"
-          }
-        ],
+        "images": "https://res.cloudinary.com/dxyabkggp/image/upload/v1655650888/my-bookcase/property/hounds-of-love_apwxl4.jpg",
         "rate": 0
       }
     
