@@ -27,6 +27,10 @@ const propertySchema = new Schema(
       type: Number,
       default: 0,
     },
+    readingDate: {
+      type: Date,
+      required: true,
+    },
   },
   { timestamps: true }
 );
