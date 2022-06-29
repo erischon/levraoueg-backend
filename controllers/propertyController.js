@@ -27,7 +27,7 @@ const getProperty = async (req, res) => {
 
 // create new property
 const createProperty = async (req, res) => {
-  const { title, propertyType, upc, images, rate } = req.body;
+  const { title, propertyType, upc, images, rate, readingDate } = req.body;
 
   // add doc to db
   try {
@@ -37,6 +37,7 @@ const createProperty = async (req, res) => {
       upc,
       images,
       rate,
+      readingDate,
     });
     res.status(200).json(property);
   } catch (error) {
